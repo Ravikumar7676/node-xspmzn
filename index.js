@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>100-Numbers</title>
-</head>
-<body>
-    <script>
-        var points = new Array(100);
-        var label = points.length;
-        for (var i = 0; i < label; i++) {
-            console.log(points[i]);
-        }
-    </script>
-</body>
-</html>
+let i,
+  a = 100;
+let count = 0;
+console.log('count of All odd numbers from 1 to 100');
+for (i = 1; i <= a; i++) {
+  if (i % 3 == 0) {
+    console.log('google');
+  }
+}
+console.log(count);
